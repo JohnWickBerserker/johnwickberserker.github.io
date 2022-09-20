@@ -1,0 +1,113 @@
+
+body {
+    background-color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #111;
+}
+
+h1 {
+    font-size: 15px;
+    margin: 0 0 7px 0;
+}
+
+h2 {
+    color: #888;
+    font-size: 12px;
+    margin: 0 0 7px 0;
+}
+
+.container {
+    width: 640px;
+    margin: auto;
+}
+
+.shadow {
+    box-shadow: 2px 2px 2px 1px #ddd;
+}
+
+.header {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+}
+
+.header .social {
+    margin-top: 10px;
+}
+
+.header img {
+    width: 80px;
+    border-radius: 10px;
+    margin: 0 10px 0 0;
+}
+
+.skills {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 6px;
+}
+
+.workplace {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 6px;
+}
+
+.workplace table {
+    width: 100%;
+}
+
+.workplace-summary {
+    font-weight: 600;
+}
+
+.workplace-details {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.workplace td:nth-child(3) {
+    width: 0%;
+    white-space: nowrap;
+}
+
+.pet-projects {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 6px;
+}
+
+.pet-projects ul {
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.grade {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 6px;
+}
+
+.grade table {
+    width: 100%;
+}
+
+.grade-summary {
+    font-weight: 600;
+}
+
+.grade-details {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.grade td:nth-child(2) {
+    width: 0%;
+    white-space: nowrap;
+}
